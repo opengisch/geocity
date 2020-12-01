@@ -450,6 +450,8 @@ def submit_permit_request(permit_request, absolute_uri_func):
         reverse("permits:permit_request_detail", kwargs={"permit_request_id": permit_request.pk})
     )
 
+    permit_request_url = permit_request_url.replace('http', 'https')
+
     users_to_notify = set(get_user_model().objects.filter(
         groups__permitdepartment__administrative_entity=permit_request.administrative_entity,
         permitauthor__user__email__isnull=False,

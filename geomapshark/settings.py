@@ -92,7 +92,7 @@ MIDDLEWARE = [
 CONSTANCE_BACKEND = 'constance.backends.database.DatabaseBackend'
 
 CONSTANCE_CONFIG = {
-    'APPLICATION_TITLE': ("Demandes d'autorisations touchant le territoire communal",
+    'APPLICATION_TITLE': ("Demandes touchant le territoire communal",
                             "Titre de la page de login", str),
     'APPLICATION_SUBTITLE': ("Petits travaux, abattages, fouilles, dépôts,...",
                             "Sous-titre de la page de login", str),
