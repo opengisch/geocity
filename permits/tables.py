@@ -14,7 +14,7 @@ class OwnPermitRequestsTable(tables.Table):
     starts_at_min = tables.Column(verbose_name=_("Début"))
     ends_at_max = tables.Column(verbose_name=_("Fin"))
     works_objects_html = tables.Column(
-        verbose_name=_("Objets et types de travaux"),
+        verbose_name=_("Objets et types"),
         orderable=False
     )
 
@@ -41,7 +41,7 @@ class DepartmentPermitRequestsTable(tables.Table):
     starts_at_min = tables.Column(verbose_name=_("Début"))
     ends_at_max = tables.Column(verbose_name=_("Fin"))
     works_objects_html = tables.Column(
-        verbose_name=_("Objets et types de travaux"),
+        verbose_name=_("Objets et types"),
         orderable=False
     )
     author__user__last_name = tables.Column(verbose_name=_("Auteur de la demande"))
