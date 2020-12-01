@@ -607,9 +607,7 @@ class PermitRequestAdditionalInformationForm(forms.ModelForm):
             'status',
             'price',
             'exemption',
-            'opposition',
             'comment',
-            'archeology_status'
         ]
         widgets = {
             'exemption': forms.Textarea(attrs={'rows': 3}),

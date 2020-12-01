@@ -451,14 +451,14 @@ class PermitRequest(models.Model):
         null=True
     )
     price = models.DecimalField(
-        _("Émolument"),
+        _("Montant"),
         decimal_places=2,
         max_digits=7,
         null=True,
         blank=True
     )
     exemption = models.TextField(
-        _("Dérogation"),
+        _("Analyse du service pilote"),
         blank=True
     )
     opposition = models.TextField(
@@ -466,7 +466,7 @@ class PermitRequest(models.Model):
         blank=True
     )
     comment = models.TextField(
-        _("Analyse du service pilote"),
+        _("Analyse de la fiduciaire"),
         blank=True
     )
     validation_pdf = fields.PermitRequestFileField(
