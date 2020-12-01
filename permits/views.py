@@ -427,7 +427,7 @@ def permit_request_properties(request, permit_request_id):
 
         if form.is_valid():
             form.save()
-            return redirect('permits:permit_request_geo_time', permit_request_id=permit_request.pk)
+            return redirect('permits:permit_request_appendices', permit_request_id=permit_request.pk)
     else:
         form = forms.WorksObjectsPropertiesForm(instance=permit_request, enable_required=False)
 
@@ -454,7 +454,7 @@ def permit_request_appendices(request, permit_request_id):
 
         if form.is_valid():
             form.save()
-            return redirect('permits:permit_request_actors', permit_request_id=permit_request.pk)
+            return redirect('permits:permit_request_submit', permit_request_id=permit_request.pk)
     else:
         form = forms.WorksObjectsAppendicesForm(instance=permit_request, enable_required=False)
 

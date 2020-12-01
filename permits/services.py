@@ -416,26 +416,12 @@ def get_progressbar_steps(request, permit_request):
             errors_count=properties_errors,
             enabled=has_objects_types,
         ),
-        "geo_time": models.Step(
-            name=_("Agenda et plan"),
-            url=geo_time_url,
-            completed=geo_time_errors == 0,
-            errors_count=geo_time_errors,
-            enabled=has_objects_types,
-        ),
         "appendices": models.Step(
             name=_("Documents"),
             url=appendices_url,
             completed=has_objects_types and appendices_form and not appendices_form.errors,
             errors_count=appendices_errors,
             enabled=has_objects_types,
-        ),
-        "actors": models.Step(
-            name=_("Contacts"),
-            url=actors_url,
-            enabled=has_objects_types,
-            errors_count=actor_errors,
-            completed=not actor_errors,
         ),
         "submit": models.Step(
             name=_("Résumé et envoi"),
