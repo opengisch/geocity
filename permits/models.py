@@ -489,10 +489,10 @@ class PermitRequest(models.Model):
         verbose_name = _("3.1 Consultation de la demande")
         verbose_name_plural = _("3.1 Consultation des demandes")
         permissions = [
-            ('amend_permit_request', _("Traiter les demandes de permis")),
-            ('validate_permit_request', _("Valider les demandes de permis")),
-            ('classify_permit_request', _("Classer les demandes de permis")),
-            ('edit_permit_request', _("Éditer les demandes de permis")),
+            ('amend_permit_request', _("Traiter les demandes")),
+            ('validate_permit_request', _("Valider les demandes")),
+            ('classify_permit_request', _("Classer les demandes")),
+            ('edit_permit_request', _("Éditer les demandes")),
         ]
 
     def is_draft(self):

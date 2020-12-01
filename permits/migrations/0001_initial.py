@@ -135,7 +135,7 @@ class Migration(migrations.Migration):
             options={
                 'verbose_name': '3.1 Consultation de la demande',
                 'verbose_name_plural': '3.1 Consultation des demandes',
-                'permissions': [('amend_permit_request', 'Traiter les demandes de permis'), ('validate_permit_request', 'Valider les demandes de permis'), ('classify_permit_request', 'Classer les demandes de permis')],
+                'permissions': [('amend_permit_request', 'Traiter les demandes'), ('validate_permit_request', 'Valider les demandes'), ('classify_permit_request', 'Classer les demandes')],
             },
         ),
         migrations.CreateModel(

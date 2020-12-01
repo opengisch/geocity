@@ -260,7 +260,7 @@ class PermitRequestDetailView(View):
 
         form.save()
         success_message = _(
-            "La demande de permis #%s a bien été complétée par le service pilote.") % self.permit_request.pk
+            "La demande #%s a bien été complétée par le service pilote.") % self.permit_request.pk
 
         if form.instance.status == models.PermitRequest.STATUS_AWAITING_SUPPLEMENT:
             success_message += " " + _(
@@ -278,7 +278,7 @@ class PermitRequestDetailView(View):
         )
         messages.success(
             self.request, _(
-                "La demande de permis #%s a bien été transmise pour validation.") % self.permit_request.pk
+                "La demande #%s a bien été transmise pour validation.") % self.permit_request.pk
         )
         return redirect("permits:permit_requests_list")
 

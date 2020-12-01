@@ -459,7 +459,7 @@ def submit_permit_request(permit_request, absolute_uri_func):
         "permit_request_url": permit_request_url
     })
     emails = [
-        ("Nouvelle demande de permis", email_contents, settings.DEFAULT_FROM_EMAIL, [email_address])
+        ("Nouvelle demande", email_contents, settings.DEFAULT_FROM_EMAIL, [email_address])
         for email_address in users_to_notify
     ]
 
@@ -470,7 +470,7 @@ def submit_permit_request(permit_request, absolute_uri_func):
     })
     emails.append(
         (
-            "Votre demande de permis", acknowledgment_email_contents, settings.DEFAULT_FROM_EMAIL,
+            "Votre demande", acknowledgment_email_contents, settings.DEFAULT_FROM_EMAIL,
             [permit_request.author.user.email]
         )
     )
@@ -503,7 +503,7 @@ def request_permit_request_validation(permit_request, departments, absolute_uri_
         "administrative_entity": permit_request.administrative_entity,
     })
     emails = [
-        ("Nouvelle demande de permis", email_contents, settings.DEFAULT_FROM_EMAIL, [email_address])
+        ("Nouvelle demande", email_contents, settings.DEFAULT_FROM_EMAIL, [email_address])
         for email_address in users_to_notify
     ]
 
