@@ -9,11 +9,6 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import get_object_or_404
 
 
-def redirect_permit(request):
-    response = redirect('/permit-request')
-    return response
-
-
 class CustomPasswordResetView(PasswordResetView):
 
     extra_email_context = {'custom_host': ''}
@@ -40,7 +35,7 @@ def permit_author_create(request):
         login(request, new_user)
 
         return HttpResponseRedirect(
-            reverse('permits:permit_request_select_administrative_entity'))
+            reverse('two_factor:profile'))
 
     return render(request, "permits/permit_request_author.html", {'permitauthorform': permitauthorform, 'djangouserform': djangouserform})
 
