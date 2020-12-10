@@ -20,42 +20,6 @@ if settings.ENABLE_2FA:
     admin.site.__class__ = AdminSiteOTPRequiredMixinRedirSetup
 
 
-
-# https://github.com/Bouke/django-two-factor-auth/issues/219#issuecomment-494382380
-# Remove when https://github.com/Bouke/django-two-factor-auth/pull/370 is merged
-class AdminSiteOTPRequiredMixinRedirSetup(AdminSiteOTPRequired):
-    def login(self, request, extra_context=None):
-        redirect_to = request.POST.get(
-            REDIRECT_FIELD_NAME, request.GET.get(REDIRECT_FIELD_NAME)
-        )
-        # For users not yet verified the AdminSiteOTPRequired.has_permission
-        # will fail. So use the standard admin has_permission check:
-        # (is_active and is_staff) and then check for verification.
-        # Go to index if they pass, otherwise make them setup OTP device.
-        if request.method == "GET" and super(
-            AdminSiteOTPRequiredMixin, self
-        ).has_permission(request):
-            # Already logged-in and verified by OTP
-            if request.user.is_verified():
-                # User has permission
-                index_path = reverse("admin:index", current_app=self.name)
-            else:
-                # User has permission but no OTP set:
-                index_path = reverse("two_factor:setup", current_app=self.name)
-            return HttpResponseRedirect(index_path)
-
-        if not redirect_to or not is_safe_url(
-            url=redirect_to, allowed_hosts=[request.get_host()]
-        ):
-            redirect_to = resolve_url(settings.LOGIN_REDIRECT_URL)
-
-        return redirect_to_login(redirect_to)
-
-
-# See TWO_FACTOR_PATCH_ADMIN
-admin.site.__class__ = AdminSiteOTPRequiredMixinRedirSetup
-
-
 # Django-rest Configuration
 
 router = routers.DefaultRouter()
@@ -97,11 +61,6 @@ urlpatterns += [
     path('permitauthoredit/', views.permit_author_edit, name='permit_author_edit'),
     path('account/', include('django.contrib.auth.urls')),
     path('rest/', include(router.urls)), # Django-rest urls
-<<<<<<< HEAD
-    path('', include(tf_urls)), # account/login/ and account/two_factor/ overriden hereabove
-=======
->>>>>>> upstream/YGDP-76
-    path('admin/', admin.site.urls),
 ]
 
 if settings.PREFIX_URL:
