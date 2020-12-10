@@ -5,10 +5,10 @@
 
 {% block content-fluid %}
   <div class="container-fluid">
-    <h3 class="mt-2">{% trans "Envoyer votre demande ?" %}</h3>
+    <h1 class="mt-2">{% trans "Confirmer l'envoi de votre demande ?" %}</h1>
     <form method="post">{% csrf_token %}
       <hr>
-      <a class="btn btn-primary" href="{% url 'permits:permit_request_submit_confirmed' permit_request_id=permit_request.pk %}">{% trans "Confirmer l'envoi" %}</a>
+      <a class="btn btn-primary btn-lg" href="{% url 'permits:permit_request_submit_confirmed' permit_request_id=permit_request.pk %}">{% trans "Confirmer l'envoi" %}</a>
       <a class="ml-2" href="{% url 'permits:permit_request_submit' permit_request_id=permit_request.pk %}">{% trans "Annuler" %}</a>
       <hr>
       <div id="legal-infos">
