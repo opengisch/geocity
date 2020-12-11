@@ -60,6 +60,7 @@ urlpatterns += [
     path('permitauthoredit/', views.permit_author_edit, name='permit_author_edit'),
     path('account/', include('django.contrib.auth.urls')),
     path('rest/', include(router.urls)), # Django-rest urls
+    path('admin/', admin.site.urls),
 ]
 
 if settings.PREFIX_URL:
