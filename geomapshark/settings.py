@@ -124,7 +124,7 @@ CONSTANCE_CONFIG = {
     'OBJECTS_TYPES_STEP': ("Sélectionnez les objets", "", str),
     'PROPERTIES_STEP': ("Renseignez les caractéristiques des objets", "", str),
     'GEO_TIME_STEP': ("Renseignez le planning et la localisation", "", str),
-    'APPENDICES_STEP': ("Ajouter des documents", "", str),
+    'APPENDICES_STEP': ("Ajouter des documents (max 10Mo par fichier)", "", str),
     'ACTORS_STEP': ("Renseignez les contacts", "", str),
     'SUBMIT_STEP': ("Résumé et envoi", "", str),
     'MAX_FILE_UPLOAD_SIZE': (10485760, "Taille maximum des fichiers uploadé", int),
