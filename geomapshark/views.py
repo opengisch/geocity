@@ -22,12 +22,11 @@ class CustomPasswordResetView(PasswordResetView):
 
 
 def permit_author_create(request):
-
     djangouserform = forms.NewDjangoAuthUserForm(request.POST or None)
     permitauthorform = forms.GenericAuthorForm(request.POST or None)
+    is_valid = djangouserform.is_valid() and permitauthorform.is_valid()
 
-    if djangouserform.is_valid() and permitauthorform.is_valid():
-
+    if is_valid:
         new_user = djangouserform.save()
         permitauthorform.instance.user = new_user
         permitauthorform.save()
@@ -39,18 +38,27 @@ def permit_author_create(request):
         return HttpResponseRedirect(
             reverse('permits:permit_requests_list'))
 
-    return render(request, "permits/permit_request_author.html", {'permitauthorform': permitauthorform, 'djangouserform': djangouserform})
+    return render(
+        request,
+        'permits/permit_request_author.html',
+        {
+            'permitauthorform': permitauthorform,
+            'djangouserform': djangouserform
+        }
+    )
 
 
 @login_required
 def permit_author_edit(request):
 
     djangouserform = forms.DjangoAuthUserForm(request.POST or None, instance=request.user)
-    permit_author_instance = get_object_or_404(models.PermitAuthor, pk=request.user.permitauthor.pk)
-    permitauthorform = forms.GenericAuthorForm(request.POST or None, instance=permit_author_instance)
+    # prvent a crash when admin accesses this page
+    permitauthorform = None
+    if hasattr(request.user, 'permitauthor'):
+        permit_author_instance = get_object_or_404(models.PermitAuthor, pk=request.user.permitauthor.pk)
+        permitauthorform = forms.GenericAuthorForm(request.POST or None, instance=permit_author_instance)
 
-    if djangouserform.is_valid() and permitauthorform.is_valid():
-
+    if djangouserform.is_valid() and permitauthorform and permitauthorform.is_valid():
         user = djangouserform.save()
         permitauthorform.instance.user = user
         permitauthorform.save()
@@ -58,4 +66,11 @@ def permit_author_edit(request):
         return HttpResponseRedirect(
             reverse('permits:permit_requests_list'))
 
-    return render(request, "permits/permit_request_author.html", {'permitauthorform': permitauthorform, 'djangouserform': djangouserform})
+    return render(
+        request,
+        'permits/permit_request_author.html',
+        {
+            'permitauthorform': permitauthorform,
+            'djangouserform': djangouserform
+        }
+    )
