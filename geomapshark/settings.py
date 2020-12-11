@@ -127,6 +127,7 @@ CONSTANCE_CONFIG = {
     'APPENDICES_STEP': ("Ajouter des documents", "", str),
     'ACTORS_STEP': ("Renseignez les contacts", "", str),
     'SUBMIT_STEP': ("Résumé et envoi", "", str),
+    'MAX_FILE_UPLOAD_SIZE': (10485760, "Taille maximum des fichiers uploadé", int),
 }
 
 TEMPLATES = [
