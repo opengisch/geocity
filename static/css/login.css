@@ -70,4 +70,8 @@ body {
   #login-welcome-text div {
     visibility: hidden;
   }
+
+  #directive-legal {
+    visibility: hidden;
+  }
 }
