@@ -30,6 +30,7 @@ router.register(r"front-config", geoviews.GeocityViewConfigViewSet, "front-confi
 
 # Django-configuration
 urlpatterns = [
+    path('i18n/', include('django.conf.urls.i18n')),
     path("", permits_views.permit_request_select_administrative_entity),
     path("permit-requests/", include("permits.urls")),
     path("grappelli/", include("grappelli.urls")),  # grappelli URLS

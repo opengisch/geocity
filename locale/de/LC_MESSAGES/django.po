@@ -20,117 +20,117 @@ msgstr ""
 
 #: geomapshark/settings.py:282
 msgid "French"
-msgstr ""
+msgstr "Französisch"
 
 #: geomapshark/settings.py:283
 msgid "English"
-msgstr ""
+msgstr "Englisch"
 
 #: geomapshark/settings.py:284
 msgid "German"
-msgstr ""
+msgstr "Deutsch"
 
 #: permits/admin.py:35
 msgid "Communes"
-msgstr ""
+msgstr "Gemeinden"
 
 #: permits/admin.py:67 permits/models.py:532
 msgid "objets des travaux"
-msgstr ""
+msgstr "Arbeitsobjekt"
 
 #: permits/filters.py:12 permits/filters.py:68
 msgid "Type de travaux"
-msgstr ""
+msgstr "Arbeitsart"
 
 #: permits/filters.py:17
 msgid "Date de création le"
-msgstr ""
+msgstr "Erstellungsdatum der"
 
 #: permits/filters.py:26
 msgid "Début après le"
-msgstr ""
+msgstr "angefangen vor dem"
 
 #: permits/filters.py:35
 msgid "Fin avant le"
-msgstr ""
+msgstr "beendet vor dem"
 
 #: permits/filters.py:61 permits/tables.py:52
 #: permits/templates/permits/print/printpermit.html:170
 msgid "Auteur de la demande"
-msgstr ""
+msgstr "Ersteller der Anfrage"
 
 #: permits/filters.py:65
 msgid "Objet des travaux"
-msgstr ""
+msgstr "Arbeitsobjekt"
 
 #: permits/forms.py:36 permits/tables.py:20 permits/tables.py:50
 msgid "Entité administrative"
-msgstr ""
+msgstr "administrative Einheit"
 
 #: permits/forms.py:77
 msgid "Types de travaux"
-msgstr ""
+msgstr "Arbeitsart"
 
 #: permits/forms.py:78
 msgid "Sélectionnez au moins un type de demande"
-msgstr ""
+msgstr "Wählen Sie mindestens eine Anfrage aus"
 
 #: permits/forms.py:126
 msgid "Sélectionnez au moins un objet par type de demande"
-msgstr ""
+msgstr "Wählen Sie mindestens ein Objekt pro Anfrage aus"
 
 #: permits/forms.py:273 permits/forms.py:295 permits/forms.py:425
 #: permits/models.py:204
 msgid "Prénom"
-msgstr ""
+msgstr "Vorname"
 
 #: permits/forms.py:274 permits/forms.py:302 permits/forms.py:432
 #: permits/models.py:205
 msgid "Nom"
-msgstr ""
+msgstr "Nachname"
 
 #: permits/forms.py:275 permits/forms.py:309 permits/forms.py:455
 #: permits/models.py:212
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: permits/forms.py:326 permits/forms.py:462 permits/models.py:208
 msgid "Adresse"
-msgstr ""
+msgstr "Adresse"
 
 #: permits/forms.py:347 permits/forms.py:482 permits/models.py:157
 #: permits/models.py:209
 msgid "NPA"
-msgstr ""
+msgstr "Postleitzahl"
 
 #: permits/forms.py:353 permits/forms.py:488 permits/models.py:159
 #: permits/models.py:210
 msgid "Ville"
-msgstr ""
+msgstr "Stadt"
 
 #: permits/forms.py:440 permits/models.py:112 permits/models.py:211
 msgid "Téléphone"
-msgstr ""
+msgstr "Telefon"
 
 #: permits/forms.py:495
 msgid "Raison sociale"
-msgstr ""
+msgstr "Firmenbezeichnung"
 
 #: permits/forms.py:501 permits/models.py:141 permits/models.py:207
 msgid "Numéro TVA"
-msgstr ""
+msgstr "Mehrwertssteuernummer"
 
 #: permits/forms.py:628 permits/models.py:623
 msgid "Date planifiée de début"
-msgstr ""
+msgstr "geplantes Anfangsdatum"
 
 #: permits/forms.py:642 permits/models.py:624
 msgid "Date planifiée de fin"
-msgstr ""
+msgstr "geplantes Enddatum"
 
 #: permits/forms.py:746
 msgid "Services chargés de la validation"
-msgstr ""
+msgstr "für Bestätigung zuständige Dienste"
 
 #: permits/geoviews.py:33
 msgid ""
@@ -140,43 +140,43 @@ msgstr ""
 
 #: permits/models.py:32 permits/models.py:440
 msgid "Autres"
-msgstr ""
+msgstr "Andere"
 
 #: permits/models.py:33
 msgid "Propriétaire"
-msgstr ""
+msgstr "Eigentümer"
 
 #: permits/models.py:34 permits/models.py:206
 msgid "Entreprise"
-msgstr ""
+msgstr "Unternehmen"
 
 #: permits/models.py:35
 msgid "Maître d'ouvrage"
-msgstr ""
+msgstr "Inhaber"
 
 #: permits/models.py:36
 msgid "Requérant si différent de l'auteur de la demande"
-msgstr ""
+msgstr "Beantragender falls er/sie nicht der Antragssteller sein sollte"
 
 #: permits/models.py:37
 msgid "Sécurité"
-msgstr ""
+msgstr "Sicherheit"
 
 #: permits/models.py:38
 msgid "Association"
-msgstr ""
+msgstr "Verband"
 
 #: permits/models.py:39
 msgid "Architecte/Ingénieur"
-msgstr ""
+msgstr "Architekt/Ingenieur"
 
 #: permits/models.py:40
 msgid "Direction des travaux"
-msgstr ""
+msgstr "Bauleitung"
 
 #: permits/models.py:56
 msgid "description"
-msgstr ""
+msgstr "Beschreibung"
 
 #: permits/models.py:57
 msgid "is_validator"
@@ -200,15 +200,15 @@ msgstr ""
 
 #: permits/models.py:72
 msgid "2.1 Configuration du service (pilote, validateur...)"
-msgstr ""
+msgstr "Konfiguration der Dienstleistung (Pilot, Validierungsprüfer...)"
 
 #: permits/models.py:74
 msgid "2.1 Configuration des services (pilote, validateur...)"
-msgstr ""
+msgstr "Konfiguration der Dienstleistungen (Pilot, Validierungsprüfer...)"
 
 #: permits/models.py:82
 msgid "name"
-msgstr ""
+msgstr "Name"
 
 #: permits/models.py:83
 msgid "ofs_id"
@@ -216,43 +216,43 @@ msgstr ""
 
 #: permits/models.py:84 permits/models.py:92
 msgid "Lien"
-msgstr ""
+msgstr "Link"
 
 #: permits/models.py:85
 msgid "Archives externes"
-msgstr ""
+msgstr "externe Archive"
 
 #: permits/models.py:87
 msgid "Directive"
-msgstr ""
+msgstr "Richtlinie"
 
 #: permits/models.py:90 permits/templates/permits/print/printpermit.html:30
 msgid "Informations"
-msgstr ""
+msgstr "Inforamtionen"
 
 #: permits/models.py:94
 msgid "Logo principal"
-msgstr ""
+msgstr "Hauptlogo"
 
 #: permits/models.py:97
 msgid "Logo secondaire"
-msgstr ""
+msgstr "zweites Logo"
 
 #: permits/models.py:100
 msgid "Signature Gauche"
-msgstr ""
+msgstr "linke Unterschrift"
 
 #: permits/models.py:103
 msgid "Signature gauche"
-msgstr ""
+msgstr "linke Unterschrift"
 
 #: permits/models.py:106
 msgid "Signature Droite"
-msgstr ""
+msgstr "rechte Unterschrift"
 
 #: permits/models.py:109
 msgid "Signature droite"
-msgstr ""
+msgstr "rechte Unterschrift"
 
 #: permits/models.py:122
 msgid "geom"
@@ -260,51 +260,51 @@ msgstr ""
 
 #: permits/models.py:126 permits/models.py:129
 msgid "1.1 Configuration de l'entité administrative (commune, organisation)"
-msgstr ""
+msgstr "Konfiguartion der administrativen Einheit (Gemeinde, Organisation)"
 
 #: permits/models.py:139
 msgid "Raison Sociale"
-msgstr ""
+msgstr "Firmenbezeichnung"
 
 #: permits/models.py:155
 msgid "Rue"
-msgstr ""
+msgstr "Strasse"
 
 #: permits/models.py:161
 msgid "Téléphone principal"
-msgstr ""
+msgstr "Haupttelefon"
 
 #: permits/models.py:171
 msgid "Téléphone secondaire"
-msgstr ""
+msgstr "Zweites Telefon"
 
 #: permits/models.py:185
 msgid "3.2 Consultation de l'auteur"
-msgstr ""
+msgstr "Autorenberatung"
 
 #: permits/models.py:186
 msgid "3.2 Consultation des auteurs"
-msgstr ""
+msgstr "Autorenberatung"
 
 #: permits/models.py:216
 msgid "Contact"
-msgstr ""
+msgstr "Kontakt"
 
 #: permits/models.py:238 permits/models.py:261
 msgid "type de contact"
-msgstr ""
+msgstr "Art des Kontakt"
 
 #: permits/models.py:243 permits/models.py:469
 msgid "type de travaux"
-msgstr ""
+msgstr "Arbeitsart"
 
 #: permits/models.py:248
 msgid "1.6 Configuration du contact"
-msgstr ""
+msgstr "Konfiguartion des Kontakt"
 
 #: permits/models.py:249
 msgid "1.6 Configuration des contacts"
-msgstr ""
+msgstr "Konfiguration der Kontakte"
 
 #: permits/models.py:265
 msgid "Relation permis-contact"
@@ -316,101 +316,101 @@ msgstr ""
 
 #: permits/models.py:283
 msgid "Brouillon"
-msgstr ""
+msgstr "Entwurf"
 
 #: permits/models.py:284
 msgid "Envoyée, en attente de traitement"
-msgstr ""
+msgstr "Gesendet, wird bearbeitet"
 
 #: permits/models.py:285
 msgid "Demande de compléments"
-msgstr ""
+msgstr "Anfrage für Ergänzungen"
 
 #: permits/models.py:286
 msgid "En traitement"
-msgstr ""
+msgstr "wird bearbeitet"
 
 #: permits/models.py:287
 msgid "En validation"
-msgstr ""
+msgstr "Wird bestätigt"
 
 #: permits/models.py:288
 msgid "Approuvée"
-msgstr ""
+msgstr "bestätigt"
 
 #: permits/models.py:289
 msgid "Refusée"
-msgstr ""
+msgstr "abgelehnt"
 
 #: permits/models.py:290
 msgid "Annonce réceptionnée"
-msgstr ""
+msgstr "Anzeige erhalten"
 
 #: permits/models.py:314
 msgid "Non pertinent"
-msgstr ""
+msgstr "irrelevant"
 
 #: permits/models.py:315
 msgid "Inconnu"
-msgstr ""
+msgstr "unbekannt"
 
 #: permits/models.py:316
 msgid "Pas fouillé"
-msgstr ""
+msgstr "nicht gesucht"
 
 #: permits/models.py:317
 msgid "Partiellement fouillé"
-msgstr ""
+msgstr "zum teil gesucht"
 
 #: permits/models.py:318
 msgid "Déjà fouillé"
-msgstr ""
+msgstr "bereits gesucht"
 
 #: permits/models.py:322
 msgid "état"
-msgstr ""
+msgstr "Zustand"
 
 #: permits/models.py:324
 msgid "date de création"
-msgstr ""
+msgstr "Erstellungsdatum"
 
 #: permits/models.py:325
 msgid "date de validation"
-msgstr ""
+msgstr "Bestätigungsdatum"
 
 #: permits/models.py:326
 msgid "date d'impression"
-msgstr ""
+msgstr "Druckdatum"
 
 #: permits/models.py:327
 msgid "imprimé par"
-msgstr ""
+msgstr "Ausgedurckt von"
 
 #: permits/models.py:329
 msgid "Permis imprimé"
-msgstr ""
+msgstr "Erlaubnis ausgedruckt"
 
 #: permits/models.py:337
 msgid "commune"
-msgstr ""
+msgstr "Gemeinde"
 
 #: permits/models.py:344
 msgid "auteur"
-msgstr ""
+msgstr "Autor"
 
 #: permits/models.py:351
 #: permits/templates/permits/permit_request_detail.html:203
 #: permits/templates/permits/print/printpermit.html:312
 msgid "Statut archéologique"
-msgstr ""
+msgstr "Archeologischer Status"
 
 #: permits/models.py:356
 msgid "Entités géométriques concernées"
-msgstr ""
+msgstr "betroffene geometrische Einheiten"
 
 #: permits/models.py:359 permits/templates/permits/print/printpermit.html:316
 msgid "Émolument"
-msgstr ""
+msgstr "Dokument"
 
 #: permits/models.py:361
 #: permits/templates/permits/permit_request_detail.html:194
@@ -430,7 +430,7 @@ msgstr ""
 
 #: permits/models.py:365
 msgid "pdf de validation"
-msgstr ""
+msgstr "pdf der Bestätigung"
 
 #: permits/models.py:370
 msgid "Destinaire de la facture"
@@ -438,7 +438,7 @@ msgstr ""
 
 #: permits/models.py:375
 msgid "Publier"
-msgstr ""
+msgstr "veröffentlichen"
 
 #: permits/models.py:379
 msgid "3.1 Consultation de la demande"
@@ -653,7 +653,7 @@ msgstr ""
 
 #: permits/models.py:649
 msgid "Géométrie"
-msgstr ""
+msgstr "Geometrie"
 
 #: permits/models.py:652
 msgid "3.4 Consultation de l'entité géographique à intersecter"
@@ -1290,22 +1290,23 @@ msgstr ""
 
 #: templates/two_factor/profile.html:29
 msgid "Unregister"
-msgstr ""
+msgstr "abmelden"
 
 #: templates/two_factor/profile.html:35
 #: templates/two_factor/setup_complete.html:30
 msgid "Add Phone Number"
-msgstr ""
+msgstr "Telefonnummer hinzufügen"
 
 #: templates/two_factor/profile.html:38
 msgid "Backup Tokens"
-msgstr ""
+msgstr "backup Tokens"
 
 #: templates/two_factor/profile.html:40
 msgid ""
 "If you don't have any device with you, you can access your account using "
 "backup tokens."
-msgstr ""
+msgstr "Falls Sie kein Gerät bei Ihnen haben, können Sie durch backup Tokens
+"Zugriff auf Ihr Konto erhalten.""
 
 #: templates/two_factor/profile.html:42
 #, python-format
@@ -1316,7 +1317,7 @@ msgstr[1] ""
 
 #: templates/two_factor/profile.html:49
 msgid "Show Codes"
-msgstr ""
+msgstr "Codes anzeigen"
 
 #: templates/two_factor/profile.html:51 templates/two_factor/profile.html:55
 msgid "Disable Two-Factor Authentication"
@@ -1337,27 +1338,30 @@ msgstr ""
 #: templates/two_factor/profile.html:62
 #: templates/two_factor/setup_complete.html:6
 msgid "Enable Two-Factor Authentication"
-msgstr ""
+msgstr "Zwei-Faktor-Authentifikation aktivieren"
 
 #: templates/two_factor/profile.html:64
 msgid "Plus tard"
-msgstr ""
+msgstr "später"
 
 #: templates/two_factor/setup_complete.html:8
 msgid "Congratulations, you've successfully enabled two-factor authentication."
-msgstr ""
+msgstr "Herzlichen Glückwunsch, Sie haben erfolgreich die Zwei-Faktor-"
+"Authentifikation aktiviert"
 
 #: templates/two_factor/setup_complete.html:14
 #: templates/two_factor/setup_complete.html:28
 msgid "Back to Account Security"
-msgstr ""
+msgstr "zurück zu Kontosicherheit"
 
 #: templates/two_factor/setup_complete.html:16
 msgid "Voir mes demandes"
-msgstr ""
+msgstr "meine Anfragen ansehen"
 
 #: templates/two_factor/setup_complete.html:23
 msgid ""
 "However, it might happen that you don't have access to your primary token "
 "device. To enable account recovery, add a phone number."
-msgstr ""
+msgstr "Trotzdem kann es passieren, dass Sie keinen Zugang zu Ihrem primären"
+"Token-Gerät haben. Um Ihr Konto wiederherzustellen, fügen Sie bitte eine
+"Telefonnummer hinzu"
