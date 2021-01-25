@@ -7,7 +7,8 @@ python3 manage.py migrate
 python3 manage.py migrate database
 
 mkdir /code/geomapshark/static/
-echo yes | python3 manage.py compilemessages -l fr
+echo yes | python3 manage.py compilemessages -l fr -l de -l it -l en
+
 echo yes | python3 manage.py collectstatic
 
 exec $@

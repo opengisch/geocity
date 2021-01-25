@@ -269,7 +269,6 @@ if DEBUG:
     CORS_ALLOW_ALL_ORIGINS = True
 
 # Internationalization
-
 LANGUAGE_CODE = "fr-CH"
 TIME_ZONE = "CET"
 USE_I18N = True

@@ -1302,11 +1302,11 @@ msgid "Backup Tokens"
 msgstr "backup Tokens"
 
 #: templates/two_factor/profile.html:40
-msgid ""
+msgid
 "If you don't have any device with you, you can access your account using "
 "backup tokens."
-msgstr "Falls Sie kein Gerät bei Ihnen haben, können Sie durch backup Tokens
-"Zugriff auf Ihr Konto erhalten.""
+msgstr "Falls Sie kein Gerät bei Ihnen haben, können Sie durch backup Tokens"
+"Zugriff auf Ihr Konto erhalten."
 
 #: templates/two_factor/profile.html:42
 #, python-format
@@ -1359,9 +1359,9 @@ msgid "Voir mes demandes"
 msgstr "meine Anfragen ansehen"
 
 #: templates/two_factor/setup_complete.html:23
-msgid ""
+msgid
 "However, it might happen that you don't have access to your primary token "
 "device. To enable account recovery, add a phone number."
 msgstr "Trotzdem kann es passieren, dass Sie keinen Zugang zu Ihrem primären"
-"Token-Gerät haben. Um Ihr Konto wiederherzustellen, fügen Sie bitte eine
+"Token-Gerät haben. Um Ihr Konto wiederherzustellen, fügen Sie bitte eine"
 "Telefonnummer hinzu"
