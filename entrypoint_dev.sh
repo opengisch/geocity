@@ -23,6 +23,7 @@ python3 manage.py migrate
 python3 manage.py migrate database
 mkdir -p /code/geomapshark/static/
 echo yes | python3 manage.py compilemessages -l fr
+echo yes | python3 manage.py compilemessages -l de
 
 
 python3 manage.py fixturize
