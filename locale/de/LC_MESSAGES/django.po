@@ -426,7 +426,7 @@ msgstr ""
 
 #: permits/models.py:363
 msgid "Analyse du service pilote"
-msgstr ""
+msgstr "Analyse des service pilot"
 
 #: permits/models.py:365
 msgid "pdf de validation"
@@ -446,7 +446,7 @@ msgstr ""
 
 #: permits/models.py:380
 msgid "3.1 Consultation des demandes"
-msgstr ""
+msgstr "Abfrage der Anfrage"
 
 #: permits/models.py:382
 msgid "Traiter les demandes de permis"
@@ -550,11 +550,11 @@ msgstr ""
 
 #: permits/models.py:522
 msgid "Nombre"
-msgstr ""
+msgstr "Anzahl"
 
 #: permits/models.py:523
 msgid "Fichier"
-msgstr ""
+msgstr "Datei"
 
 #: permits/models.py:528
 msgid "type de caractéristique"
@@ -562,94 +562,94 @@ msgstr ""
 
 #: permits/models.py:530
 msgid "obligatoire"
-msgstr ""
+msgstr "obligatorisch"
 
 #: permits/models.py:536
 msgid "1.5 Configuration du champ"
-msgstr ""
+msgstr "Feldkonfigurationen"
 
 #: permits/models.py:537
 msgid "1.5 Configuration des champs"
-msgstr ""
+msgstr "Feldkonfigurationen"
 
 #: permits/models.py:550
 msgid "caractéristique"
-msgstr ""
+msgstr "Merkmal"
 
 #: permits/models.py:574
 msgid "En attente"
-msgstr ""
+msgstr "In Wartung"
 
 #: permits/models.py:575
 msgid "Approuvé"
-msgstr ""
+msgstr "Bestätigen"
 
 #: permits/models.py:576
 msgid "Refusé"
-msgstr ""
+msgstr "Ablehnen"
 
 #: permits/models.py:588
 msgid "Statut de validation"
-msgstr ""
+msgstr "Status der Bestätigung"
 
 #: permits/models.py:590
 msgid "Commentaires (avant)"
-msgstr ""
+msgstr "Kommentare (davor)"
 
 #: permits/models.py:591
 msgid "Commentaires (pendant)"
-msgstr ""
+msgstr "Kommentare (wartend)"
 
 #: permits/models.py:592
 msgid "Commentaires (après)"
-msgstr ""
+msgstr "Kommentare (nachher)"
 
 #: permits/models.py:594
 msgid "Validé le"
-msgstr ""
+msgstr "Den bestätigen"
 
 #: permits/models.py:599
 msgid "3.5 Consultation de la validation par le service"
-msgstr ""
+msgstr "Abfrage der Bestätigungen des Service"
 
 #: permits/models.py:600
 msgid "3.5 Consultation des validations par les services"
-msgstr ""
+msgstr "Abfrage der Bestätigungen der Service"
 
 #: permits/models.py:625 permits/models.py:643
 #: permits/templates/permits/permit_request_detail.html:200
 #: permits/templates/permits/print/printpermit.html:275
 #: permits/templates/permits/print/printpermit.html:308
 msgid "Commentaire"
-msgstr ""
+msgstr "Kommentar"
 
 #: permits/models.py:626 permits/models.py:648
 msgid "Lien externe"
-msgstr ""
+msgstr "Externe Quelle"
 
 #: permits/models.py:627
 msgid "Localisation"
-msgstr ""
+msgstr "Lokalisierung"
 
 #: permits/models.py:631
 msgid "3.3 Consultation de l'agenda et de la géométrie"
-msgstr ""
+msgstr "Abfrage des Datums und des Aufenthaltortes"
 
 #: permits/models.py:632
 msgid "3.3 Consultation des agenda et géométries"
-msgstr ""
+msgstr "Abfrage der Datumsangaben und der Aufenthaltorte"
 
 #: permits/models.py:641
 msgid "Nom de la couche source"
-msgstr ""
+msgstr "Name der Quelle"
 
 #: permits/models.py:644
 msgid "Id entité"
-msgstr ""
+msgstr "Id Einheit"
 
 #: permits/models.py:646
 msgid "Id entité secondaire"
-msgstr ""
+msgstr "Id sekundäre Einheit"
 
 #: permits/models.py:649
 msgid "Géométrie"
@@ -657,79 +657,79 @@ msgstr "Geometrie"
 
 #: permits/models.py:652
 msgid "3.4 Consultation de l'entité géographique à intersecter"
-msgstr ""
+msgstr "Abfrage der abzuhörenden geographischen Einheit"
 
 #: permits/models.py:654
 msgid "3.4 Consultation des entités géographiques à intersecter"
-msgstr ""
+msgstr "Abfrage der überschneidenden geographischen Einheitenen"
 
 #: permits/models.py:664
 msgid "statut"
-msgstr ""
+msgstr "Status"
 
 #: permits/models.py:676
 msgid "Status disponible pour l'entité administrative"
-msgstr ""
+msgstr "Verfügbar für Administrativeeinheit"
 
 #: permits/models.py:677
 msgid "Status disponibles pour l'entité administratives"
-msgstr ""
+msgstr "Verfügbar für Administrativeeinheit"
 
 #: permits/services.py:393
 #, python-format
 msgid "Contact de type \"%s\" manquant."
-msgstr ""
+msgstr "Kontakt des fehlenden Typ \"%s\"
 
 #: permits/services.py:471
 msgid "Entité"
-msgstr ""
+msgstr "Einheit"
 
 #: permits/services.py:477
 msgid "Type"
-msgstr ""
+msgstr "Art"
 
 #: permits/services.py:483
 msgid "Objets"
-msgstr ""
+msgstr "Objekte"
 
 #: permits/services.py:489 permits/templates/permits/print/printpermit.html:120
 msgid "Détails"
-msgstr ""
+msgstr "Details"
 
 #: permits/services.py:498
 msgid "Agenda et plan"
-msgstr ""
+msgstr "Agenda und Plan"
 
 #: permits/services.py:505 permits/templates/permits/print/printpermit.html:139
 msgid "Documents"
-msgstr ""
+msgstr "Dokumente"
 
 #: permits/services.py:514
 #: permits/templates/permits/_permit_request_summary.html:39
 msgid "Contacts"
-msgstr ""
+msgstr "Kontakte"
 
 #: permits/services.py:521
 #: permits/templates/permits/permit_request_submit.html:8
 msgid "Résumé et envoi"
-msgstr ""
+msgstr "Zusammenfassen und senden"
 
 #: permits/tables.py:10 permits/tables.py:40
 #: permits/templates/permits/permit_request_detail.html:21
 msgid "Actions"
-msgstr ""
+msgstr "Aktionen"
 
 #: permits/tables.py:14 permits/tables.py:44
 msgid "Début"
-msgstr ""
+msgstr "Anfang"
 
 #: permits/tables.py:15 permits/tables.py:45
 msgid "Fin"
-msgstr ""
+msgstr "Ende"
 
 #: permits/tables.py:17 permits/tables.py:47
 msgid "Objets et types de travaux"
-msgstr ""
+msgstr "Arbeitsbjekte und Arbeitsarten"
 
 #: permits/templates/geometrywidget/geometrywidget.html:75
 msgid "Debugging window (serialized value)"
@@ -737,63 +737,64 @@ msgstr ""
 
 #: permits/templates/permits/_geo_time_form.html:8
 msgid "Planning et localisation"
-msgstr ""
+msgstr "Plannung und Lokalisierung"
 
 #: permits/templates/permits/_permit_request_summary.html:12
 #: permits/templates/permits/_permit_request_summary.html:23
 msgid "Information non fournie"
-msgstr ""
+msgstr "Nicht angegebene Informationen"
 
 #: permits/templates/permits/_permit_request_summary.html:59
 msgid "Éléments géographiques touchés par la demande (automatique)"
-msgstr ""
+msgstr "Von der (automatischen) Anfrage betroffene geographische Elemente "
 
 #: permits/templates/permits/administrative_infos.html:18
 msgid "Télécharger les directives PDF"
-msgstr ""
+msgstr "Richtlinien per PDF herunterladen"
 
 #: permits/templates/permits/emails/permit_request_acknowledgment.txt:1
 #, python-format
 msgid "Bonjour %(name)s"
-msgstr ""
+msgstr "Guten Tag %(name)s"
 
 #: permits/templates/permits/emails/permit_request_acknowledgment.txt:3
 msgid ""
 "Nous vous confirmons bonne réception de votre demande et vous en remercions."
-msgstr ""
+msgstr "Wir bestätigen Ihre Anfrage erhalten zu haben und bedanken uns."
 
 #: permits/templates/permits/emails/permit_request_acknowledgment.txt:5
 msgid "Vous pouvez la consulter sur le lien suivant"
-msgstr ""
+msgstr "Sie können sie mit folgendem Link aufsuchen"
 
 #: permits/templates/permits/emails/permit_request_acknowledgment.txt:7
 #: permits/templates/permits/emails/permit_request_submitted.txt:7
 #: permits/templates/permits/emails/permit_request_validation_reminder.txt:7
 #: permits/templates/permits/emails/permit_request_validation_request.txt:7
 msgid "Avec nos meilleures salutations,"
-msgstr ""
+msgstr "Mit besten Grüssen, "
 
 #: permits/templates/permits/emails/permit_request_submitted.txt:1
 #: permits/templates/permits/emails/permit_request_validation_reminder.txt:1
 #: permits/templates/permits/emails/permit_request_validation_request.txt:1
 msgid "Bonjour,"
-msgstr ""
+msgstr "Guten Tag,"
 
 #: permits/templates/permits/emails/permit_request_submitted.txt:3
 msgid ""
 "Une nouvelle demande de permis vient d'être soumise. Vous pouvez la "
 "consulter en cliquant sur le lien suivant:"
-msgstr ""
-
+msgstr "Eine neue Genehmingungsbeantragung wurde so eben eingereicht."
+"Sie können sie mit folgendem Link aufsuchen und bestätigen:"
 #: permits/templates/permits/emails/permit_request_validation_reminder.txt:3
 msgid "La demande suivante est en attente de validation de votre part:"
-msgstr ""
+msgstr "Die folgende Anfrage wartet auf Ihre Bestätigung:"
 
 #: permits/templates/permits/emails/permit_request_validation_request.txt:3
 msgid ""
 "Une nouvelle demande attend votre validation. Vous pouvez la consulter et la "
 "valider sur le lien suivant:"
-msgstr ""
+msgstr "Eine neue Anfrage wartet auf ihre Bestätigung. Sie können sie mit folgendem Link"
+"aufsuchen und bestätigen:"
 
 #: permits/templates/permits/permit_request_actors.html:32
 #: permits/templates/permits/permit_request_appendices.html:25
@@ -804,104 +805,104 @@ msgstr ""
 #: permits/templates/permits/permit_request_select_types.html:18
 #: permits/templates/permits/permit_request_submit.html:41
 msgid "Retour"
-msgstr ""
+msgstr "zurückkehren"
 
 #: permits/templates/permits/permit_request_actors.html:33
 #: permits/templates/permits/permit_request_appendices.html:28
 #: permits/templates/permits/permit_request_properties.html:22
 #: permits/templates/permits/permit_request_select_objects.html:21
 msgid "Enregistrer et continuer"
-msgstr ""
+msgstr "Speichern und fortfahren"
 
 #: permits/templates/permits/permit_request_appendices.html:20
 msgid "Aucune annexe requise pour cette demande de permis."
-msgstr ""
+msgstr "Kein Zusatz erfordert für diese Anfrage der Genehmigung"
 
 #: permits/templates/permits/permit_request_appendices.html:30
 #: permits/templates/permits/permit_request_select_administrative_entity.html:20
 #: permits/templates/permits/permit_request_select_types.html:19
 msgid "Continuer"
-msgstr ""
+msgstr "fortfahren"
 
 #: permits/templates/permits/permit_request_author.html:19
 msgid "Mon compte"
-msgstr ""
+msgstr "Mein Konto"
 
 #: permits/templates/permits/permit_request_author.html:30
 #: permits/templates/permits/permit_request_delete.html:17
 msgid "Annuler"
-msgstr ""
+msgstr "Absagen"
 
 #: permits/templates/permits/permit_request_classify.html:19
 msgid "Approuver la demande"
-msgstr ""
+msgstr "Anfrage annehmen"
 
 #: permits/templates/permits/permit_request_classify.html:21
 msgid "Refuser la demande"
-msgstr ""
+msgstr "Anfrage ablehnen"
 
 #: permits/templates/permits/permit_request_delete.html:7
 msgid "Effacer la demande ?"
-msgstr ""
+msgstr "Anfrage löschen?"
 
 #: permits/templates/permits/permit_request_delete.html:9
-msgid "Êtes vous sûr de vouloir supprimer la demande n°"
-msgstr ""
+msgid "Êtes vous sûr de vouloir supprimer la demande?"
+msgstr "Sind Sie sich, dass Sie die Anfrage n° löschen wollen?"
 
 #: permits/templates/permits/permit_request_delete.html:10
 msgid "Détails de la demande:"
-msgstr ""
+msgstr "Details der Anfrage"
 
 #: permits/templates/permits/permit_request_delete.html:12
 msgid "Requérant:"
-msgstr ""
+msgstr "Antragssteller"
 
 #: permits/templates/permits/permit_request_delete.html:14
 msgid "Demande du:"
-msgstr ""
+msgstr "Anfrage des:"
 
 #: permits/templates/permits/permit_request_detail.html:9
 #, python-format
 msgid "Demande #%(request_id)s"
-msgstr ""
+msgstr "Anfrage #%(request_id)s "
 
 #: permits/templates/permits/permit_request_detail.html:12
 msgid "Imprimer"
-msgstr ""
+msgstr "Ausdrucken"
 
 #: permits/templates/permits/permit_request_detail.html:25
 #: permits/templates/permits/permit_request_detail.html:61
 msgid "Traiter"
-msgstr ""
+msgstr "Behandeln"
 
 #: permits/templates/permits/permit_request_detail.html:31
 #: permits/templates/permits/permit_request_detail.html:76
 msgid "Envoyer pour validation"
-msgstr ""
+msgstr "Zur Bestätigung abschicken"
 
 #: permits/templates/permits/permit_request_detail.html:38
 #: permits/templates/permits/permit_request_detail.html:91
 msgid "Valider"
-msgstr ""
+msgstr "Bestätigen"
 
 #: permits/templates/permits/permit_request_detail.html:46
 msgid "Classer"
-msgstr ""
+msgstr "Ordnen"
 
 #: permits/templates/permits/permit_request_detail.html:110
 #: permits/templates/permits/permit_request_detail.html:220
 msgid "Commentaire (avant)"
-msgstr ""
+msgstr "Kommentar (bevor)"
 
 #: permits/templates/permits/permit_request_detail.html:114
 #: permits/templates/permits/permit_request_detail.html:224
 msgid "Commentaire (pendant)"
-msgstr ""
+msgstr "Kommentar (während)"
 
 #: permits/templates/permits/permit_request_detail.html:118
 #: permits/templates/permits/permit_request_detail.html:228
 msgid "Commentaire (après)"
-msgstr ""
+msgstr "Kommentar (nach)"
 
 #: permits/templates/permits/permit_request_detail.html:127
 #, python-format
@@ -912,134 +913,135 @@ msgstr[1] ""
 
 #: permits/templates/permits/permit_request_detail.html:137
 msgid "Refuser"
-msgstr ""
+msgstr "Ablehnen"
 
 #: permits/templates/permits/permit_request_detail.html:140
 msgid "Approuver"
-msgstr ""
+msgstr "Bestätigen"
 
 #: permits/templates/permits/permit_request_detail.html:150
 msgid "Données de base"
-msgstr ""
+msgstr "Basisdaten"
 
 #: permits/templates/permits/permit_request_detail.html:152
 #: permits/templates/permits/print/printpermit.html:34
 msgid "Date de création"
-msgstr ""
+msgstr "Erstellungsdatum"
 
 #: permits/templates/permits/permit_request_detail.html:154
 #, python-format
 msgid "Il y a %(request_date)s"
-msgstr ""
+msgstr "Es gibt %(request_date)s"
 
 #: permits/templates/permits/permit_request_detail.html:156
 #: permits/templates/permits/print/printpermit.html:42
 msgid "Statut"
-msgstr ""
+msgstr "Status"
 
 #: permits/templates/permits/permit_request_detail.html:159
 #: permits/templates/permits/print/printpermit.html:45
 #, python-format
 msgid "le %(validated_at)s"
-msgstr ""
+msgstr "der %(validated_at)s"
 
 #: permits/templates/permits/permit_request_detail.html:162
 #: permits/templates/permits/print/printpermit.html:50
 msgid "Auteur-e"
-msgstr ""
+msgstr "Ersteller/in"
 
 #: permits/templates/permits/permit_request_detail.html:169
 msgid "Permis délivré"
-msgstr ""
+msgstr "Erlaubnis erhalten"
 
 #: permits/templates/permits/permit_request_detail.html:176
 msgid "Publié"
-msgstr ""
+msgstr "veröffentlichen"
 
 #: permits/templates/permits/permit_request_detail.html:184
 msgid "Données du service pilote"
-msgstr ""
+msgstr "Daten des service pilot"
 
 #: permits/templates/permits/permit_request_detail.html:188
 msgid "État"
-msgstr ""
+msgstr "Zustand"
 
 #: permits/templates/permits/permit_request_detail.html:191
 msgid "Prix"
-msgstr ""
+msgstr "Preis"
 
 #: permits/templates/permits/permit_request_detail.html:209
 msgid "Statut des validations"
-msgstr ""
+msgstr "Status der Bestätigung"
 
 #: permits/templates/permits/permit_request_detail.html:236
 msgid "Résumé"
-msgstr ""
+msgstr "Zusammenfassung"
 
 #: permits/templates/permits/permit_request_detail.html:240
 msgid "Retour à la liste des demandes"
-msgstr ""
+msgstr "Zur Anfragenliste zurückkehren"
 
 #: permits/templates/permits/permit_request_geo_time.html:30
 msgid "Ajouter un nouveau"
-msgstr ""
+msgstr "Ein neues hinzufügen"
 
 #: permits/templates/permits/permit_request_geo_time.html:31
 msgid "Enregistrer et poursuivre"
-msgstr ""
+msgstr "speichern und fortfahren"
 
 #: permits/templates/permits/permit_request_submit.html:12
 msgid ""
 "Votre demande n'est pas complète mais elle est sauvegardée. Vous pouvez "
 "revenir dans l'application ultérieurement afin de la compléter. Une fois "
 "toutes les informations saisies, vous pourrez l'envoyer."
-msgstr ""
-
+msgstr "Ihre Anfrage ist nicht vollständig sie wurde jedoch gespeichert."
+"Um die Anmeldung volständig auszufüllen können Sie im Nachhinein zurückkommen."
+"Wenn einmal alle Informationen angegeben wurden, können Sie es abschicken."
 #: permits/templates/permits/permit_request_submit.html:20
 msgid "Vous trouverez ci-dessous un récapitulatif de votre demande."
-msgstr ""
+msgstr "Sie werden hier drunter die Zusammenfassung Ihrer Anfrage finden"
 
 #: permits/templates/permits/permit_request_submit.html:29
 msgid "Renseigner les informations manquantes"
-msgstr ""
+msgstr "Geben Sie die fehlenden Informationen ein"
 
 #: permits/templates/permits/permit_request_submit.html:35
 msgid "Télécharger le PDF"
-msgstr ""
+msgstr "PDF herunterladen"
 
 #: permits/templates/permits/permit_request_submit.html:43
 #: permits/templates/tables/_permit_request_actions.html:33
 msgid "Envoyer"
-msgstr ""
+msgstr "Senden"
 
 #: permits/templates/permits/permit_requests_list.html:11
 msgid "Vue d'ensemble de vos demandes"
-msgstr ""
+msgstr "Übersicht Ihrer Anfragen"
 
 #: permits/templates/permits/permit_requests_list.html:14
 #: templates/two_factor/setup_complete.html:19
 msgid "Créer une nouvelle demande"
-msgstr ""
+msgstr "Neue Anfrage erstellen"
 
 #: permits/templates/permits/permit_requests_list.html:23
 msgid "Filtrer"
-msgstr ""
+msgstr "filtern"
 
 #: permits/templates/permits/permit_requests_list.html:25
 msgid "Effacer le filtre"
-msgstr ""
+msgstr "Filter löschen"
 
 #: permits/templates/permits/permit_requests_list.html:29
 msgid "Archives"
-msgstr ""
+msgstr "Archiv"
 
 #: permits/templates/permits/permit_requests_list.html:38
 msgid "Les demandes envoyées ne peuvent plus être modifiées"
-msgstr ""
+msgstr "Die gesendeten Anfragen können nicht mehr bearbeitet werden"
 
 #: permits/templates/permits/print/printpermit.html:26
 msgid "Permis N°"
-msgstr ""
+msgstr "Erlaubnis N°"
 
 #: permits/templates/permits/print/printpermit.html:60
 msgid "Objet(s) du permis"
@@ -1047,63 +1049,63 @@ msgstr ""
 
 #: permits/templates/permits/print/printpermit.html:76
 msgid "Agenda"
-msgstr ""
+msgstr "Agenda"
 
 #: permits/templates/permits/print/printpermit.html:81
 msgid "Date de début :"
-msgstr ""
+msgstr "Anfangsdatum"
 
 #: permits/templates/permits/print/printpermit.html:89
 msgid "Date de fin :"
-msgstr ""
+msgstr "Enddatum"
 
 #: permits/templates/permits/print/printpermit.html:98
 msgid "Commentaire :"
-msgstr ""
+msgstr "Kommentar :"
 
 #: permits/templates/permits/print/printpermit.html:108
 msgid "Lien externe :"
-msgstr ""
+msgstr "externe Verbindung"
 
 #: permits/templates/permits/print/printpermit.html:144
 msgid "Document :"
-msgstr ""
+msgstr "Dokument"
 
 #: permits/templates/permits/print/printpermit.html:160
 msgid "Éléments géographiques touchés par la demande"
-msgstr ""
+msgstr "Von der Anfrage betroffene geographische Elemente "
 
 #: permits/templates/permits/print/printpermit.html:240
 msgid "Contact(s)"
-msgstr ""
+msgstr "Kontakt(e)"
 
 #: permits/templates/permits/print/printpermit.html:263
 msgid "Plan de situation"
-msgstr ""
+msgstr "Plan des Aufenthaltortes"
 
 #: permits/templates/permits/print/printpermit.html:271
 msgid "Remarques des services consultés"
-msgstr ""
+msgstr "Anmerkungen des betroffenen Services"
 
 #: permits/templates/permits/print/printpermit.html:274
 msgid "Service"
-msgstr ""
+msgstr "Service"
 
 #: permits/templates/permits/print/printpermit.html:283
 msgid "Avant"
-msgstr ""
+msgstr "davor"
 
 #: permits/templates/permits/print/printpermit.html:285
 msgid "Pendant"
-msgstr ""
+msgstr "während"
 
 #: permits/templates/permits/print/printpermit.html:287
 msgid "Après"
-msgstr ""
+msgstr "danach"
 
 #: permits/templates/permits/print/printpermit.html:297
 msgid "Commentaires du service pilote"
-msgstr ""
+msgstr "Kommentar des service pilot"
 
 #: permits/templates/permits/print/printpermit.html:323
 msgid "Signatures"
@@ -1111,53 +1113,54 @@ msgstr ""
 
 #: permits/templates/permits/print/printpermit.html:336
 msgid "pdf du "
-msgstr ""
+msgstr "pdf des"
 
 #: permits/templates/tables/_permit_request_actions.html:6
 msgid "Voir"
-msgstr ""
+msgstr "anschauen"
 
 #: permits/templates/tables/_permit_request_actions.html:14
 msgid "Modifier"
-msgstr ""
+msgstr "bearbeiten"
 
 #: permits/templates/tables/_permit_request_actions.html:23
 msgid "Supprimer la demande"
-msgstr ""
+msgstr "Anfrage löschen"
 
 #: permits/templatetags/permits_extras.py:50
 msgid "Auteur de la demande, "
-msgstr ""
+msgstr "Antragssteller"
 
 #: permits/views.py:325
 #, python-format
 msgid "La demande de permis #%s a bien été complétée par le service pilote."
-msgstr ""
-
+msgstr "Die Anfrage für die Bewillingung #%s wurde vervollständigt durch den"
+"servie pilot."
 #: permits/views.py:333
 #, python-format
 msgid ""
 "Le statut de la demande a été passé à en attente de compléments. Vous devez "
 "maintenant contacter le requérant par email (%s) afin de lui demander de "
 "fournir les informations manquantes."
-msgstr ""
-
+msgstr "Der Status der Anfrage wurde zur Warteschlange zur Vervollständigung "
+"weitergegeben. Sie müssen jetzt den Antragssteller per Email (%s) kontaktieren "
+" um ihn/sie für die Vervollständigung der fehlenden Information zu bitten."
 #: permits/views.py:351
 #, python-format
 msgid "La demande de permis #%s a bien été transmise pour validation."
-msgstr ""
+msgstr "Die Anfrage für den Ausweis #%s wurde zur Verarbeitung weitergegeben. "
 
 #: permits/views.py:366
 msgid "La demande a bien été validée."
-msgstr ""
+msgstr "Die Anfrage wurde für gültig erklärt."
 
 #: permits/views.py:371
 msgid "La demande a bien été refusée."
-msgstr ""
+msgstr "Die Anfrage wurde verweigert."
 
 #: permits/views.py:373
 msgid "Les commentaires ont été enregistrés."
-msgstr ""
+msgstr "Die Kommentare wurden gespeichert."
 
 #: permits/views.py:383
 #, python-format
@@ -1169,125 +1172,130 @@ msgstr[1] ""
 #: permits/views.py:840
 #, python-format
 msgid "Approbation de la demande #%s"
-msgstr ""
+msgstr "Anerkennung der Anfrage"
 
 #: permits/views.py:840
 #, python-format
 msgid "Refus de la demande #%s"
-msgstr ""
+msgstr "Verweigerung der Anfrage"
 
 #: templates/404.html:14 templates/500.html:14
 msgid "Quelque chose n'a pas fonctionné!"
-msgstr ""
+msgstr "etwas hat nicht funkioniert!"
 
 #: templates/404.html:15 templates/500.html:15
 msgid "Cette page n'existe pas"
-msgstr ""
+msgstr "diese Seite existiert nicht"
 
 #: templates/base_generic.html:37
 msgid "Demandes d'autorisations"
-msgstr ""
+msgstr "Genehmingungsbeantragung"
 
 #: templates/base_generic.html:52 templates/base_generic.html:73
 msgid "Changer mon mot de passe"
-msgstr ""
+msgstr "mein Passwort ändern"
 
 #: templates/base_generic.html:53 templates/base_generic.html:76
 msgid "Modifier mon compte"
-msgstr ""
+msgstr "mein Benutzerkonto bearbeiten"
 
 #: templates/base_generic.html:55 templates/base_generic.html:80
 #: templates/two_factor/profile.html:6
 msgid "Account Security"
-msgstr ""
+msgstr "Kontosicherheit"
 
 #: templates/base_generic.html:57 templates/base_generic.html:84
 msgid "Me déconnecter"
-msgstr ""
+msgstr "mich abmelden"
 
 #: templates/base_generic.html:70
 msgid "Informations des communes / entités"
-msgstr ""
+msgstr "Informationen der Gemeinde"
 
 #: templates/registration/login.html:20 templates/two_factor/login.html:23
 msgid ""
 "Votre compte ne dispose pas des droits nécessaires pour accéder à cette page"
-msgstr ""
+msgstr "Ihr Benutzerkonto verfügt nicht über die benötigten Rechte um auf diese "
+"Seite zu zugreifen"
 
 #: templates/registration/login.html:26 templates/two_factor/login.html:30
 msgid "Votre mot de passe et votre nom d'utilisateur ne correspondent pas"
-msgstr ""
+msgstr "Ihr Passwort und Ihr Benutzername stimmen nicht überein"
 
 #: templates/registration/login.html:34 templates/two_factor/login.html:39
 msgid "Connexion"
-msgstr ""
+msgstr "Verbindung"
 
 #: templates/registration/login.html:37 templates/two_factor/login.html:42
 msgid "Connectez-vous à l'aide de vos identifiants"
-msgstr ""
+msgstr "Verbinden Sie sich mit der Hilfe Ihrer Login-Daten"
 
 #: templates/registration/login.html:40 templates/two_factor/login.html:45
 msgid "Suivant"
-msgstr ""
+msgstr "nächstes"
 
 #: templates/registration/login.html:47 templates/two_factor/login.html:52
 msgid "Créer un compte"
-msgstr ""
+msgstr "Benutzerkonto erstellen"
 
 #: templates/registration/login.html:48 templates/two_factor/login.html:53
 msgid "Perdu votre mot de passe ?"
-msgstr ""
+msgstr "Passwort vergessen?"
 
 #: templates/two_factor/_wizard_actions.html:4
 msgid "Next"
-msgstr ""
+msgstr "nächstes"
 
 #: templates/two_factor/_wizard_actions.html:6
 msgid "Cancel"
-msgstr ""
+msgstr "abbrechen"
 
 #: templates/two_factor/login.html:56
 msgid "Please enter the tokens generated by your token generator."
-msgstr ""
+msgstr "Bitte lösen Sie den Token ein, welcher von Ihrem token generator "
+"generiert wurde."
 
 #: templates/two_factor/login.html:63
 msgid "As a last resort, you can use a backup token:"
-msgstr ""
+msgstr "Als letzte Möglichkeit besteht, einen backup Token zu benutzen."
 
 #: templates/two_factor/login.html:66
 msgid "Use Backup Token"
-msgstr ""
+msgstr "Backup Token benutzen"
 
 #: templates/two_factor/login.html:71
 msgid ""
 "Use this form for entering backup tokens for logging in. These tokens have "
 "been generated for you to print and keep safe. Please enter one of these "
 "backup tokens to login to your account."
-msgstr ""
-
+msgstr "Benutzen Sie dieses Formular um backup Tokens für das Login einzulösen"
+"Diese Tokens wurden für Sie generiert, um sie zu drucken und in Sicherheit zu
+"halten. Bitte lösen Sie einen von den Tokens ein, damit Sie sich in Ihr "
+"Benutzerkonto einloggen können."
 #: templates/two_factor/profile.html:10
 msgid "Tokens will be generated by your token generator."
-msgstr ""
+msgstr "Tokens werden von Ihrem Token generator generiert."
 
 #: templates/two_factor/profile.html:12
 #, python-format
 msgid "Primary method: %(primary)s"
-msgstr ""
+msgstr "Primäre Methode"
 
 #: templates/two_factor/profile.html:14
 msgid "Tokens will be generated by your YubiKey."
-msgstr ""
+msgstr "Tokens werden von Ihrem YubiKey generiert."
 
 #: templates/two_factor/profile.html:18
 msgid "Backup Phone Numbers"
-msgstr ""
+msgstr "Backup Telefonnummer"
 
 #: templates/two_factor/profile.html:19
 msgid ""
 "If your primary method is not available, we are able to send backup tokens "
 "to the phone numbers listed below."
-msgstr ""
-
+msgstr "Falls Ihre erste Methode nicht verfügbar sein sollte, ist es "
+"nicht möglich backup Tokens zu der von Ihnen angegebenen Telefonnummer zu "
+"senden."
 #: templates/two_factor/profile.html:29
 msgid "Unregister"
 msgstr "abmelden"
@@ -1322,20 +1330,22 @@ msgstr "Codes anzeigen"
 
 #: templates/two_factor/profile.html:51 templates/two_factor/profile.html:55
 msgid "Disable Two-Factor Authentication"
-msgstr ""
+msgstr "Zwei-Faktor-Authentifikation deaktivieren"
 
 #: templates/two_factor/profile.html:52
 msgid ""
 "However we strongly discourage you to do so, you can also disable two-factor "
 "authentication for your account."
-msgstr ""
+msgstr "Jedoch weisen wir stark davon ab. Sie können auch die Zwei-Faktor-"
+"Authentifikation für Ihr Benutzerkonto abstellen."
 
 #: templates/two_factor/profile.html:57
 msgid ""
 "Two-factor authentication is not enabled for your account. Enable two-factor "
 "authentication for enhanced account security."
-msgstr ""
-
+msgstr "Zwei-Faktor-Authentifikation ist für Ihr Benutzerkonto nicht "
+"aktiviert. Aktivieren Sie Zwei-Faktor-Authentifikation für erweiterte "
+"Kontosicherheit."
 #: templates/two_factor/profile.html:62
 #: templates/two_factor/setup_complete.html:6
 msgid "Enable Two-Factor Authentication"
@@ -1348,7 +1358,7 @@ msgstr "später"
 #: templates/two_factor/setup_complete.html:8
 msgid "Congratulations, you've successfully enabled two-factor authentication."
 msgstr "Herzlichen Glückwunsch, Sie haben erfolgreich die Zwei-Faktor-"
-"Authentifikation aktiviert"
+"Authentifikation aktiviert."
 
 #: templates/two_factor/setup_complete.html:14
 #: templates/two_factor/setup_complete.html:28
